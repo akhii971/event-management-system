@@ -117,7 +117,7 @@ export const productData = [
         date: "Apr 05, 2025",
         location: "Forum Mall, Hyderabad",
         banner:
-          "https://i.ytimg.com/vi/ftY8gPPRGoU/maxresdefault.jpg",
+          "https://live.staticflickr.com/771/22312874740_1d2bbf490c_b.jpg",
         price: [
           { type: "Participant", amount: 299 },
           { type: "Viewer", amount: 49 }
@@ -157,7 +157,7 @@ export const productData = [
         date: "Feb 1–2, 2025",
         location: "Tech Auditorium, Pune",
         banner:
-          "https://img.freepik.com/premium-photo/group-programmers-writing-code-hackathon_1097104-666.jpg",
+          "https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/mobile_banner/68fa65138d9be_code-battle.png?d=700x400",
         price: [
           { type: "Individual", amount: 499 },
           { type: "Team", amount: 1499 }
@@ -171,7 +171,7 @@ export const productData = [
         date: "Mar 8–10, 2025",
         location: "NIT Trichy Campus",
         banner:
-          "https://img.freepik.com/premium-photo/humanoid-robot-works-servers_93675-138210.jpg",
+          "https://static.wixstatic.com/media/c76346_2f8d82ddab3a4db8beae0eaba49d6515~mv2.jpg/v1/fill/w_824,h_720,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/947_edited.jpg",
         price: [{ type: "Entry", amount: 199 }],
         seatsAvailable: 400,
         organizer: "NIT Robotics Club"
@@ -182,7 +182,7 @@ export const productData = [
         date: "Jan 11, 2025",
         location: "IIT Hyderabad",
         banner:
-          "https://media.istockphoto.com/id/1344939841/photo/hacker-using-laptop-scaled.jpg",
+          "https://t4.ftcdn.net/jpg/02/05/93/21/360_F_205932110_IWiDmketVT703mNPZ8eSn76Sa25QoSYw.jpg",
         price: [{ type: "Entry Pass", amount: 399 }],
         seatsAvailable: 120,
         organizer: "CyberSec India"
@@ -193,7 +193,7 @@ export const productData = [
         date: "Apr 15, 2025",
         location: "TCS Auditorium, Mumbai",
         banner:
-          "https://img.freepik.com/premium-photo/blockchain-technology-concept-man-hand-visual-touch-cybersecurity_493343-66009.jpg",
+          "https://egyptinnovate.com/sites/default/files/Cairo%20Blockchain%20bootcamp.jpg",
         price: [
           { type: "Basic", amount: 899 },
           { type: "Pro", amount: 1999 }
