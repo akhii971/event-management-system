@@ -131,24 +131,19 @@ function Homepage() {
 
 
   // Carousel settings
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 900,
-    slidesToShow: 1,
-    centerMode: true,
-    centerPadding: "200px",
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2600,
-    pauseOnHover: true,
-    cssEase: "ease-in-out",
-    arrows: false,
-    responsive: [
-      { breakpoint: 1024, settings: { centerPadding: "120px" } },
-      { breakpoint: 768, settings: { centerPadding: "0px", slidesToShow: 1 } },
-    ],
-  };
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 600,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  swipeToSlide: true,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  pauseOnHover: true
+};
+
 
   const Carouselitems = [
     {
@@ -212,12 +207,18 @@ function Homepage() {
           <Slider {...settings}>
             {Carouselitems.map((p) => (
               <div key={p.id} className="px-6">
-                <div
-                  className="group relative h-[500px] w-full rounded-3xl overflow-hidden cursor-pointer
-                             bg-black/40 backdrop-blur-xl shadow-2xl
-                             transition-shadow duration-700 ease-out
-                             hover:shadow-purple-500/80"
-                >
+               <div
+  className="
+    group relative 
+    h-[300px] sm:h-[400px] lg:h-[500px] 
+    w-full rounded-3xl 
+    overflow-hidden cursor-pointer
+    bg-black/40 backdrop-blur-xl shadow-2xl
+    transition-shadow duration-700 ease-out
+    hover:shadow-purple-500/80
+  "
+>
+
                   <img
                     src={p.thumbnail}
                     alt={p.title}

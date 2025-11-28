@@ -258,3 +258,20 @@ body, html {
   background-size: 200% 200%;
   animation: gradientFlow 6s ease infinite;
 }
+.slick-slider {
+  width: 100%;
+  overflow: visible !important;
+}
+
+.slick-list {
+  padding: 0 !important;
+}
+
+.slick-track {
+  display: flex !important;
+  align-items: center;
+}
+
+.slick-slide div {
+  outline: none;
+}
