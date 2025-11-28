@@ -150,12 +150,12 @@ const settings = {
       id: 1,
       title: "Explore Tech Events",
       thumbnail:
-        "https://img.freepik.com/premium-photo/photo-realistic-vector-illustration-remote-team-collaborating-software-dev-project-with-coding-t_980716-260452.jpg?semt=ais_hybrid&w=740&q=80",
+        "https://meetings.skift.com/wp-content/uploads/2023/11/a-group-of-diverse-professionals-in-a-high-tech-environment-brainstorming-and-discussing-around-a-futuristic-display-of-advanced-event-technology.jpg",
     },
     {
       id: 2,
       title: "Alan Walker Show",
-      thumbnail: "https://cdn.siasat.com/wp-content/uploads/2025/04/image-6-1024x512.jpg",
+      thumbnail: "https://images7.alphacoders.com/103/1038859.jpg",
     },
     {
       id: 3,
